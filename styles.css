@@ -1,0 +1,48 @@
+:root {
+  --sans: 'Times New Roman', Times, serif;
+  --white: #ffffff;
+  --ink: #333333;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--white);
+  color: var(--ink);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--white);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.symbol {
+  color: #E63946;
+}
+
+.letter-blue {
+  color: #1F77B4;
+}
+
+.letter-green {
+  color: #2CA02C;
+}
+
+.letter-yellow {
+  color: #FFB81C;
+}
